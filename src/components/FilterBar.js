@@ -2,8 +2,9 @@ import React from 'react'
 
 function FilterBar() {
     return (
-        <div>
-            
+        <div id="filter-bar">
+            <label htmlFor="filter-input">Filter: </label>
+            <input id="filter-input" />
         </div>
     )
 }

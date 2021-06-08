@@ -2,7 +2,7 @@ import React from 'react'
 
 function PokemonCard() {
     return (
-        <div>
+        <div id={`pokemon-card-${id}`}>
             
         </div>
     )

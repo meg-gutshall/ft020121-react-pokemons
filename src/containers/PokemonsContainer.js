@@ -1,9 +1,10 @@
 import React from 'react'
+import FilterBar from '../components/FilterBar'
 
 function PokemonsContainer() {
     return (
-        <div>
-            
+        <div id="poke-container">
+            <FilterBar />
         </div>
     )
 }
