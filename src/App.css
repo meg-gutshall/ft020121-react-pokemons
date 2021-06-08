@@ -17,8 +17,8 @@
   --dark: #705746;
   --steel: #b7b7ce;
   --fairy: #d685ad;
-  --caught: url("https://64.media.tumblr.com/6824f6d9269a0ffaca00a5fc3a6c091c/5efc5b26fb741b21-6f/s250x250_c1/8c17bef87dd80dc95c6a9b86e10df51e7d672430.gif");
-  --unCaught: url("https://cdn.edu.buncee.com/rackspace/bnc-assets/animations/b7b0e81603cc2b33d502bb8e6280c096/1db/1428011630_Yuki_052714Grass_01.gif");
+  --caught: url("./images/pokeball.gif");
+  --unCaught: url("./images/grass.gif");
 }
 
 .App {
