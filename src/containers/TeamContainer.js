@@ -11,9 +11,12 @@ function TeamContainer(props) {
     
     return (
         <div id="team-container">
-            {mappedTeam}
+            <>
+                <h1>You have no Pokemon on your team. </h1>
+                <img src="https://media.tenor.com/images/7c355668e41f8cf511fe30c8483379d0/tenor.gif" />
+            </>
         </div>
     )
 }
-    
+
 export default TeamContainer
