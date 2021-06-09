@@ -1,10 +1,10 @@
 import React from 'react'
 
-function NavBar() {
+function NavBar({changePage}) {
     return (
         <div id="nav-bar">
-            <h1>Pokemons</h1>
-            <h1>View Team</h1>
+            <h1 id="pokemons" onClick={changePage} >Pokemons</h1>
+            <h1 id="teams" onClick={changePage}>View Team</h1>
         </div>
     )
 }
