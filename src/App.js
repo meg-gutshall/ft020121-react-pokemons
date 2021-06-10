@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import './App.css';
 import NavBar from './components/NavBar';
+import PokemonForm from './components/PokemonForm';
 import PokemonsContainer from './containers/PokemonsContainer';
 import TeamContainer from './containers/TeamContainer';
 
@@ -61,6 +62,7 @@ class App extends Component {
     return (
     <div className="App">
         <NavBar changePage={this.changePage} />
+        <PokemonForm />
         {this.state.page === "pokemons" ? <PokemonsContainer team={this.state.team} addPokemon={this.addPokemon} pokemons={this.state.pokemons} /> : <TeamContainer runAway={this.runAway} team={this.state.team} />}
     </div>
   )}
