@@ -82,3 +82,16 @@ img {
     margin-top: 10px;
   }
 }
+
+form{
+  display: inline-block;
+  border-radius: 10%;
+  border-style: solid;
+  margin: 10px;
+  padding: 10px   
+}
+
+form input{
+  margin-top: 10px;
+  
+}
